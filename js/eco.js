@@ -1,5 +1,5 @@
 $(function(){
-	//nav Å¬¸¯
+	//nav Å¬ï¿½ï¿½
 	$(".nav li a").click(function(e){ 
 		var goPage=$(this).attr("href");
 		var topPos=$(goPage).offset().top;
@@ -54,7 +54,7 @@ $(function(){
 	$(this).addClass('on'); 
  })
 })
-//¸Þ´ºÅ¬¸¯ ÄÃ·¯
+//ï¿½Þ´ï¿½Å¬ï¿½ï¿½ ï¿½Ã·ï¿½
 
 		$(".prt_box_dv1").mouseover(function(){
 		$("#port_box ul .prot_bg1").stop().animate({"opacity":"0.8"},500);
@@ -112,6 +112,19 @@ $(function(){
 		$(".prt_box_title5").stop().animate({"opacity":"0"},500);
 		$(".prt_box_bnt5").stop().animate({"opacity":"0"},500);
 	});
+
+	$(".prt_box_dv6").mouseover(function(){
+		$("#port_box ul .prot_bg6").stop().animate({"opacity":"0.8"},500);
+		$(".prt_box_title6").stop().animate({"opacity":"1"},500);
+		$(".prt_box_bnt6").stop().animate({"opacity":"1"},500);
+	});
+
+		$(".prt_box_dv6").mouseout(function(){
+		$("#port_box ul .prot_bg6").stop().animate({"opacity":"0"},500);
+		$(".prt_box_title6").stop().animate({"opacity":"0"},500);
+		$(".prt_box_bnt6").stop().animate({"opacity":"0"},500);
+	});
+	
 
 })
 
