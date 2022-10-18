@@ -70,13 +70,13 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 #content3{width:100%; margin-top:17vw;}
 #port_box{width:98%; padding-top:5vw; margin-left:0;}
 .prt_box_dv1{width:100%; height:40vw;}
-.port_box_bg{ width:100%; height:156vw;   margin-top:4vw; box-shadow:0px 0px 2vw rgb(0,0,0,0.2);}
+.port_box_bg{ width:100%; height:158vw;   margin-top:4vw; box-shadow:0px 0px 2vw rgb(0,0,0,0.2);}
 .port_box_bg ul{width:100%; height:40vw; margin-top:2vw; margin-left:0%; float:left; position:relative;}
 
 .port_box_bg ul img{width:100%;}
 .port_box1{width:100%; height:46vw; background:url(/port_img1.png) no-repeat 50% 50%;}
 .prt_box_dv {float:left; width:48%; margin-top:6vw; margin-left:2%; text-align:center;}
-.prt_box_dv p{width:100%; font-size:3vw; font-weight:550; color:#333333; float:left; margin-top:0vw; margin-left:0%;}
+.prt_box_dv p{width:100%; font-size:3vw; font-weight:550; color:#333333; float:left; margin-top:1vw; margin-left:0%;}
 .prt_box_dv4, .prt_box_dv5, .prt_box_dv6{margin-top:6vw;}
 
 
