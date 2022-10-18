@@ -157,6 +157,8 @@ h1 {
   color: #333333;
   font-weight: 500;
 }
+.content_text li {margin-top:8px;}
+
 .con_box1_shadowbox {
   margin-top: 30px;
   width: 1262px;
