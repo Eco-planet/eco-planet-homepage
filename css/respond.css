@@ -74,29 +74,28 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 .port_box_bg ul{width:100%; height:40vw; margin-top:2vw; margin-left:0%; float:left; position:relative;}
 
 .port_box_bg ul img{width:100%;}
-.port_box1{width:100%; height:46vw; background:url(../images/port_img1.png) no-repeat 50% 50%;}
+.port_box1{width:100%; height:46vw; background:url(/port_img1.png) no-repeat 50% 50%;}
 .prt_box_dv {float:left; width:48%; margin-top:6vw; margin-left:2%; text-align:center;}
 .prt_box_dv p{width:100%; font-size:3vw; font-weight:550; color:#333333; float:left; margin-top:0vw; margin-left:0%;}
 .prt_box_dv4, .prt_box_dv5, .prt_box_dv6{margin-top:6vw;}
 
 
-.port_box2{width:100%; height:40vw; background:url(../images/port_img2.png) no-repeat 50% 50%;}
-.port_box3{width:100%; height:40vw; background:url(../images/port_img3.png) no-repeat 50% 50%;}
-.port_box4{width:100%; height:40vw; background:url(../images/port_img4.png) no-repeat 50% 50%;}
-.port_box5{width:100%; height:40vw; background:url(../images/port_img4.png) no-repeat 50% 50%;}
+.port_box2{width:100%; height:40vw; background:url(/port_img2.png) no-repeat 50% 50%;}
+.port_box3{width:100%; height:40vw; background:url(/port_img3.png) no-repeat 50% 50%;}
+.port_box4{width:100%; height:40vw; background:url(/port_img4.png) no-repeat 50% 50%;}
+.port_box5{width:100%; height:40vw; background:url(/port_img5.png) no-repeat 50% 50%;}
 
 #port_box ul{cursor:pointer; border:0.25vw solid #d9d9d9; margin-top:-3vw;}
 #port_box ul li:first-child{color:white; font-size:4.8vw; top:36%; left:29%;  z-index:10; }
 #port_box ul li:nth-child(2){position:absolute; left:27%; top:54%; width:48%; height:4vw; line-height:4vw; font-size:2vw; border-radius:8px;  }
 #port_box ul li:last-child{width:100%; height:40vw;  background:black; opacity:0.8;}
-#port_box .port_box6{cursor:default;}
-
+#port_box ul .port_box6{cursor:default;}
 
 #port_box ul .prt_box_title{opacity:1;}
 #port_box ul .prt_box_title3{margin-left:-2.5vw;}
 #port_box ul .prt_box_title4{margin-top:-4.5vw; margin-left:-10vw;}
 #port_box ul .prt_box_title5{margin-top:-4.5vw; margin-left:-3vw;}
-
+#port_box .port_box6 .prt_box_title6{opacity:0;}
 #port_box ul .prt_box_bnt{opacity:1;}
 #port_box ul .prt_box_bnt4{margin-top:2.5vw;}
 #port_box ul .prt_box_bnt5{margin-top:2.5vw;}
