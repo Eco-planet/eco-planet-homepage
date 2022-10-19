@@ -17,7 +17,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="/og.png">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="sylesheet">
 
-	<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script  src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="/wow.min.js"></script>
 	<script type="text/javascript" src="/eco.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
@@ -242,7 +242,6 @@ data-wow-iteration: 애니메이션이 반복되는 횟수 -->
           <form id="email_form" onsubmit="sendEmail(); reset(); return false">
             <p><span><img src="/contact_ico.png" alt="contact txt icon"></span>제목</p>
             <input type="text" name="form_title"  placeholder=" 제목을 입력하세요.">
-  
             <p><span><img src="/contact_ico.png" alt="contact txt icon"></span>이름</p>
             <input type="text" name="form_name"  placeholder="이름을 입력하세요.">
             <p><span><img src="/contact_ico.png" alt="contact txt icon"></span>업체명</p>
@@ -255,20 +254,35 @@ data-wow-iteration: 애니메이션이 반복되는 횟수 -->
             <textarea class="question_box" type="text" name="form_questioin"></textarea>
             <input  type="checkbox"  class="personal_box" name="personal" value="data" checked >
             <label for="question01">개인정보 처리방침에 동의합니다.</label>
+			<a class="info_box" href="javascript:void(0);" onclick="fn()" >[내용보기]</a>
             <button><img type="submit" src="/email_btn_on.png" alt="email sand btn"></button>
           </form>
+		  	<div class="info_conbox">
+				<p class="info_box_close"><button><img src="/close.png" alt="개인정보처리 닫기 버튼"></button></p>
+				<textarea class="info_conbox_t">
+
+ 개인정보처리방침
+
+ < 주식회사 에코플레닛 >('eco-planet.io'이하 '에코플레닛 홈페이지')은(는) 「개인정보 보호법」 
+ 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수
+ 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.
+
+ ○ 이 개인정보처리방침은 2022년 10월 20부터 적용됩니다.
+				</textarea>	
+
+			</div>
 				</div>
 			</div>
 		</div> <!-- content4_end -->
 
 
-
+		
 	
 	</div> <!-- container_end -->
 
 	<footer>
 		<div id="foot">
-			<h1><img src="/foot_logo.png" alt="하단 로고"></h1>	
+			<p class="foot_logo"><img src="/foot_logo.png" alt="하단 로고"></p>	
 			<address>
 				<p class="company_name">주식회사 에코플레닛</p>
 				<p class="add"><span></span>서울특별시 서초구 서초중앙로 63, 5층(서초동, 리더스 빌딩)</p>

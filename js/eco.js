@@ -125,7 +125,16 @@ $(function(){
 		$(".prt_box_bnt6").stop().animate({"opacity":"0"},500);
 	});
 	
-
+	$(function(){
+		$('.info_box').click(function(){
+		$('.info_conbox').css('display','block');
+	 })
+	})
+	$(function(){
+		$('.info_box_close').click(function(){
+		$('.info_conbox').css('display','none');
+	 })
+	})	
 })
 
 
