@@ -547,7 +547,7 @@ h1 {
   opacity: 0;
   transition: 0.3s;
   position: absolute;
-  margin-left: 381px;
+  margin-left: 299px;
 }
 #contact_box .email_btn_on:hover {
   opacity: 1;

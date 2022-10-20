@@ -124,7 +124,8 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 #contact_box button{width:24%; cursor: pointer; float:right; margin-top:1vw; border:none; background:none;}
 #contact_box button img{width:100%;}
 #contact_box .info_box{font-size:2.5vw; font-weight:550; margin-left:2%; color:#61a7e2;}
-#contact_box .email_btn_on{opacity:0; transition:0.3s; position:absolute; margin-left:10%;}
+#contact_box .email_btn_off{display:none;}
+#contact_box .email_btn_on{opacity:1; transition:0.3s; position:absolute; margin-top:2.5%; margin-left:18%;}
 #contact_box .email_btn_on:hover{opacity:1;}
 
 #contact_box .info_conbox .info_box_close{  background: #d9d9d9; width:85.2%; height:6.5vw; margin-left:4%;  box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.2);}
