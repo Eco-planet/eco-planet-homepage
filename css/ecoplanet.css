@@ -119,6 +119,19 @@ h1 img {
   background: url(/main_img3.png) no-repeat center 0;
   background-size: cover;
 }
+.visual_s .bxslider #b4 {
+  background: url(/main_img1_eng.png) no-repeat center 0;
+  background-size: cover;
+}
+.visual_s .bxslider #b5 {
+  background: url(/main_img2_eng.png) no-repeat center 0;
+  background-size: cover;
+}
+.visual_s .bxslider #b6 {
+  background: url(/main_img3_eng.png) no-repeat center 0;
+  background-size: cover;
+}
+
 
 /* header ebd */
 
@@ -243,10 +256,37 @@ h1 {
 }
 .con_box2_slide_img1 li:last-child {
   width: 800px;
+  margin-top: 58px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.con_box2_slide_img1_1 {
+  width: 100%;
+  height: 196px;
+  background: url(/m_con_box2_simg1.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+.con_box2_slide_img1_1 li {
+  float: left;
+}
+.con_box2_slide_img1_1 li:first-child {
+  margin-top: 76px;
+  margin-left: 20px;
+  width: 244px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 550;
+  color: white;
+  transition: 0.3s;
+}
+.con_box2_slide_img1_1 li:last-child {
+  width: 800px;
   margin-top: 46px;
   margin-left: 30px;
   font-size: 18px;
 }
+
 
 .con_box2_slide_img2 {
   margin-top: 20px;
@@ -270,18 +310,18 @@ h1 {
 }
 .con_box2_slide_img2 li:last-child {
   width: 800px;
-  margin-top: 46px;
+  margin-top: 56px;
   margin-right: 30px;
   font-size: 18px;
   text-align: right;
 }
 
 .con_box2_slide_img3 {
-  margin-top: 20px;
   width: 100%;
-  height: 196px;
-  background: url(/m_con_box2_simg1.png) no-repeat 50% 50%;
-  background-size: cover;
+  margin-top: 20px;
+  height: 186px;
+  background: url(/m_con_box2_simg3.png) no-repeat 50% 50%;
+  background-size:cover;
 }
 .con_box2_slide_img3 li {
   float: left;
@@ -298,10 +338,38 @@ h1 {
 }
 .con_box2_slide_img3 li:last-child {
   width: 800px;
+  margin-top: 75px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.con_box2_slide_img4 {
+  width: 100%;
+  margin-top: 20px;
+  height: 186px;
+  background: url(/m_con_box2_simg3.png) no-repeat 50% 50%;
+  background-size: contain;
+}
+.con_box2_slide_img4 li {
+  float: left;
+}
+.con_box2_slide_img4 li:first-child {
+  margin-top: 54px;
+  margin-left: 20px;
+  width: 244px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 550;
+  color: white;
+  transition: 0.3s;
+}
+.con_box2_slide_img4 li:last-child {
+  width: 800px;
   margin-top: 60px;
   margin-left: 30px;
   font-size: 18px;
 }
+
 
 #content3 {
   width: 100%;
@@ -355,6 +423,7 @@ h1 {
   margin-left: 14px;
 }
 .prt_box_dv4,
+.prt_box_dv4_1,
 .prt_box_dv5,
 .prt_box_dv6 {
   margin-top: 74px;
@@ -371,6 +440,11 @@ h1 {
   background: url(/port_img3.png) no-repeat 50% 50%;
 }
 .port_box4 {
+  width: 100%;
+  height: 330px;
+  background: url(/port_img4.png) no-repeat 50% 50%;
+}
+.port_box4_1 {
   width: 100%;
   height: 330px;
   background: url(/port_img4.png) no-repeat 50% 50%;
@@ -436,6 +510,10 @@ h1 {
   margin-top: -40px;
   margin-left: -80px;
 }
+#port_box ul .prt_box_title4_1 {
+  margin-top: -60px;
+  margin-left: -100px;
+}
 #port_box ul .prt_box_title5 {
   margin-top: -40px;
   margin-left: -26px;
@@ -450,6 +528,9 @@ h1 {
 }
 #port_box ul .prt_box_bnt4 {
   margin-top: 20px;
+}
+#port_box ul .prt_box_bnt4_1 {
+  margin-top: 50px;
 }
 #port_box ul .prt_box_bnt5 {
   margin-top: 20px;
@@ -481,83 +562,48 @@ h1 {
   margin-top: 80px;
 }
 
-#content5 {
-  width: 100%;
-  margin-top: 150px;
-}
-#contact_box {
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-#contact_box p {
-  display: inline-block;
-  width: 95px;
-  font-size: 18px;
-  color: #333333;
-  margin-top: 26px;
-  line-height: 16px;
-}
-#contact_box p span {
-  margin-right: 6px;
-}
-#contact_box input {
-  width: 700px;
-  margin-top: -6px;
-  border: none;
-  border-bottom: 1px solid #999999;
-  background: none;
-  border-radius: 0;
-}
-#contact_box .questionin_t {
-  overflow: hidden;
-  margin-bottom: 90px;
-}
-#contact_box textarea {
-  width: 700px;
-  height: 206px;
-  margin-top: 15px;
-  border: none;
-  border-bottom: 1px solid #999999;
-  background: none;
-}
-#contact_box .personal_box {
-  margin-top: -7px;
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-}
-#contact_box label {
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 20px;
-  margin-left: 4px;
-}
-
+#content5 {width: 100%; margin-top: 150px;}
+#contact_box {width: 800px; margin: 0 auto; margin-top: 50px;}
+#contact_box p {display: inline-block; width: 95px; font-size: 18px; color: #333333; margin-top: 26px; line-height: 16px;}
+#contact_box p span {margin-right: 6px;}
+#contact_box input {width: 700px; margin-top: -6px; border: none; border-bottom: 1px solid #999999; background: none; border-radius: 0;}
+#contact_box .questionin_t {overflow: hidden; margin-bottom: 90px;}
+#contact_box textarea {width: 700px; height: 206px; margin-top: 15px; border: none; border-bottom: 1px solid #999999; background: none;}
+#contact_box .personal_box {margin-top: -7px; width: 16px; height: 16px; cursor: pointer;}
+#contact_box label {display: inline-block; font-size: 16px; margin-top: 20px; margin-left: 4px;}
 #contact_box .info_box{font-size:16px; margin-left:10px; color:#61a7e2;}
 
-#contact_box button {
-  cursor: pointer;
-  float: right;
-  margin-top: 10px;
-  border: none;
-  background: none;
-}
-#contact_box .email_btn_on {
-  opacity: 0;
-  transition: 0.3s;
-  position: absolute;
-  margin-left: 299px;
-}
-#contact_box .email_btn_on:hover {
-  opacity: 1;
-}
+#contact_box button {cursor: pointer; float: right; margin-top: 10px; border: none; background: none;}
+#contact_box .email_btn_on {opacity: 0; transition: 0.3s; position: absolute; margin-left: 299px;}
+#contact_box .email_btn_on:hover { opacity: 1;}
+#contact_box .email_btn_on1 { opacity: 0;  transition: 0.3s;  position: absolute;  margin-left: 378px;}
+#contact_box .email_btn_on1:hover {opacity: 1;}
+
+
+#contact_box1 {width: 800px; margin: 0 auto; margin-top: 50px;}
+#contact_box1 p {display: inline-block; width: 176px; font-size: 18px; color: #333333; margin-top: 26px; line-height: 16px;}
+#contact_box1 p span {margin-right: 6px;}
+#contact_box1 input {width: 620px; margin-top: -6px; border: none; border-bottom: 1px solid #999999; background: none; border-radius: 0;}
+#contact_box1 .questionin_t {overflow: hidden; margin-bottom: 90px;}
+#contact_box1 textarea {width: 620px; height: 206px; margin-top: 15px; border: none; border-bottom: 1px solid #999999; background: none;}
+#contact_box1 .personal_box {margin-top: -7px; width: 16px; height: 16px; cursor: pointer;}
+#contact_box1 label {display: inline-block; font-size: 16px; margin-top: 20px; margin-left: 4px;}
+#contact_box1 .info_box{font-size:16px; margin-left:10px; color:#61a7e2;}
+
+#contact_box1 button {cursor: pointer; float: right; margin-top: 10px; border: none; background: none;}
+#contact_box1 .email_btn_on {opacity: 0; transition: 0.3s; position: absolute; margin-left: 299px;}
+#contact_box1 .email_btn_on:hover { opacity: 1;}
+#contact_box1 .email_btn_on1 { opacity: 0;  transition: 0.3s;  position: absolute;  margin-left: 378px;}
+#contact_box1 .email_btn_on1:hover {opacity: 1;}
+
 
 #content5{position:relative;}
 #contact_box .info_conbox .info_box_close{  background: #ebebeb; width:702px; height:40px; margin-left:50px;  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2);}
 #contact_box .info_conbox .info_box_close button img{margin-top:0px; margin-right:8px;}
 #contact_box .info_conbox{width:700px; height:500px; position:absolute; top:16%; left:50%; margin-left:-400px;}
 #contact_box .info_conbox .info_conbox_t{overflow-y:scroll; padding:30px 10px 30px 10px; resize: none; width:680px; height:500px; font-size:12px; line-height:16px; margin-top:-3px; margin-left:50px; background:white; border:1px solid #d9d9d9; text-align:left;   box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2);}
+
+
 .info_conbox{display:none;}
 
 .info_title{font-size:16px; font-weight:600;}

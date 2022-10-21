@@ -101,6 +101,20 @@ $(function(){
 		$(".prt_box_title4").stop().animate({"opacity":"0"},500);
 		$(".prt_box_bnt4").stop().animate({"opacity":"0"},500);
 	});
+	$(".prt_box_dv4_1").mouseover(function(){
+		$("#port_box ul .prot_bg4_1").stop().animate({"opacity":"0.8"},500);
+		$(".prt_box_title4_1").stop().animate({"opacity":"1"},500);
+		$(".prt_box_bnt4_1").stop().animate({"opacity":"1"},500);
+	});
+
+		$(".prt_box_dv4_1").mouseout(function(){
+		$("#port_box ul .prot_bg4_1").stop().animate({"opacity":"0"},500);
+		$(".prt_box_title4_1").stop().animate({"opacity":"0"},500);
+		$(".prt_box_bnt4_1").stop().animate({"opacity":"0"},500);
+	});
+
+
+
 		$(".prt_box_dv5").mouseover(function(){
 		$("#port_box ul .prot_bg5").stop().animate({"opacity":"0.8"},500);
 		$(".prt_box_title5").stop().animate({"opacity":"1"},500);
