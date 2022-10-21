@@ -4,8 +4,12 @@ const app = express()
 app.set("views", "./views");
 app.set("view engine", "ejs")
 
-app.get('/main', (req, res) => {
-  res.render("home/index")
+app.get('/', (req, res) => {
+  res.render("home/index_kor")
+})
+
+app.get('/eng', (req, res) => {
+  res.render("home/index_eng")
 })
 
 app.use(express.static('./css'))
