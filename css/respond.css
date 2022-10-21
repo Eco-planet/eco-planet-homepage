@@ -131,11 +131,11 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 
 
 #contact_box1{width:96%; margin:0 auto; margin-top:5vw;}
-#contact_box1 p{display:inline-block; width:18%;   font-size:3vw; color:#333333; margin-top:3.5vw;  line-height:16px;}
+#contact_box1 p{display:inline-block; width:40%;   font-size:3vw; color:#333333; margin-top:3.5vw;  line-height:16px;}
 #contact_box1 p span{margin-right:3%;}
-#contact_box1 input{width:80%; margin-top:-6px; border:none; border-bottom:1px solid #999999; background:none; border-radius:0;}
+#contact_box1 input{width:98%; margin-top:3vw; border:none; border-bottom:1px solid #999999; background:none; border-radius:0;}
 #contact_box1 .questionin_t{overflow:normal; padding:1vw 0; height:3vw; margin-bottom:6vh;}
-#contact_box1 textarea{width:80%; height:26vw; margin-top:1.5vw; border:none; border-bottom:0.25vw solid #999999; background:none;}
+#contact_box1 textarea{width:98%; height:26vw; margin-top:1.5vw; border:none; border-bottom:0.25vw solid #999999; background:none;}
 #contact_box1 .personal_box{margin-top:0vw; width:16px; height:16px; cursor: pointer;}
 #contact_box1 label{display:inline-block; font-size:2.5vw; margin-top:20px; margin-left:4px;}
 #contact_box1 button{width:24%; cursor: pointer; float:right; margin-top:1vw; border:none; background:none;}
