@@ -1,4 +1,4 @@
-const express = require("express")
+const express = require('express')
 const app = express()
 
 app.set("views", "./views");
@@ -17,6 +17,5 @@ app.use(express.static('./images'))
 app.use(express.static('./js'))
 
 app.listen(3003, () => {
-  // console.log(app)
   console.log("Server Start")
 })
