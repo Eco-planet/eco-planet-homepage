@@ -10,8 +10,8 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 
 
 #navArea{overflow:hidden; width:100%; }
-.nav {float:left;  clear:both;  margin-top:4vw; margin-left:8%; width:90%; }
-.nav li{float:left; margin-right:10%; /* background:green; */}
+.nav {float:left;  clear:both;  margin-top:4vw; margin-left:4.5%; width:96%; }
+.nav li{float:left; margin-right:6%; /* background:green; */}
 .nav .navMn_last{margin-right:0;}
 .nav li a{font-size:2.5vw; text-decoration:none; font-weight:500;}
 .nav li a img{width:30%; }
@@ -38,8 +38,8 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 .con_box1_shadowbox{margin-top:4vw; width:100%; height:22vw;}
 .con_box1_shadowbox li{float:left;}
 .con_box1_logo{width:24%; margin-top:20%; margin-left:5.5%; margin-top:9vw;}
-.con_box1_logo img{width:100%; }
-.con_box1_shaodwbox_txt{position:absolute; width:60%;  right:6%; margin-top:5.6vw; margin-left:2%;  width:60%; font-size:2.45vw;}
+.con_box1_logo img{width:80%; }
+.con_box1_shaodwbox_txt{position:absolute; width:66%;  right:6%; margin-top:5.6vw; margin-left:2%;  font-size:2.3vw;}
 
 
 
@@ -54,9 +54,9 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 .con_box2_rolling_img{width:100%; height:46vw; margin-top:6vw;}
 
 .con_box2_slide_img{width:100%; margin-top:6vw;}
-.con_box2_slide_img1{width:100%; height:15vw;}
-.con_box2_slide_img2{margin-top:4vw; width:100%; height:15vw; }
-.con_box2_slide_img3{margin-top:4vw; width:100%; height:15vw; }
+.con_box2_slide_img1{width:100%; height:15vw; background-size: cover;}
+.con_box2_slide_img2{margin-top:4vw; width:100%; height:15vw; background-size: cover;}
+.con_box2_slide_img3{margin-top:4vw; width:100%; height:15vw; background-size: cover;}
 .con_box2_slide_img4{width:100%; height:15vw;}
 .con_box2_slide_img5{margin-top:4vw; width:100%; height:15vw; }
 .con_box2_slide_img6{margin-top:4vw; width:100%; height:15vw; }
@@ -90,6 +90,7 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 #port_box ul .port_box6{cursor:default;}
 
 #port_box ul .prt_box_title{opacity:1;}
+#port_box ul .prt_box_title1 {margin-left: -7vw;}
 #port_box ul .prt_box_title3{margin-left:-2.5vw;}
 #port_box ul .prt_box_title4{margin-top:-4.5vw; margin-left:-10vw;}
 #port_box ul .prt_box_title4_1{margin-top:-7vw; margin-left:-13vw;}
@@ -109,6 +110,27 @@ h1 img{width:30%; height:3.5vw; float:left; margin-top:3.5vw; margin-left:5%;}
 #partner_box{width:96%; margin:0 auto; margin-top:4vw;}
 #partner_box p{width:100%; text-align:center; margin-top:6vw;}
 #partner_box p img{width:100%;}
+
+
+#content6 {
+  width: 100%;
+  height: 40vw;
+}
+#con_box6 {
+  margin-top: 17vw;
+}
+.content_text_box6 {width:100%; height:40vw; margin-top:2vw; padding-top:3vw; background: linear-gradient(#f1f1f1, white);}
+.
+#zq_box {
+  width: 96%;
+  margin: 0 auto;
+  margin-top: 4vw;
+}
+#zq_box p {
+  text-align: center;
+  margin-top: 6vw;
+}
+
 
 
 

@@ -58,7 +58,7 @@ h1 img {
   margin-top: 28px;
   margin-left: 86px;
   width: 650px;
-  background-color: red;
+ 
 }
 .nav li {
   float: left;
@@ -242,24 +242,24 @@ h1 {
   width: 100%;
   height: 196px;
   background: url(/con_box2_simg1.png) no-repeat 50% 50%;
-  background-size: cover;
+  background-size: 80%;
 }
 
 
 .con_box2_slide_img2 {
-  margin-top: 20px;
+  margin-top: -20px;
   width: 100%;
   height: 186px;
   background: url(/con_box2_simg2.png) no-repeat 50% 50%;
-  background-size: cover;
+  background-size: 80%;
 }
 
 .con_box2_slide_img3 {
   width: 100%;
-  margin-top: 20px;
+  margin-top: -20px;
   height: 186px;
   background: url(/con_box2_simg3.png) no-repeat 50% 50%;
-  background-size:cover;
+  background-size: 80%;
 }
 
 .con_box2_slide_img4 {
@@ -267,21 +267,21 @@ h1 {
   margin-top: 20px;
   height: 186px;
   background: url(/m_con_box2_simg1.png) no-repeat 50% 50%;
-  background-size: contain;
+  background-size: 80%;
 }
 .con_box2_slide_img5 {
   width: 100%;
   margin-top: 20px;
   height: 186px;
   background: url(/m_con_box2_simg2.png) no-repeat 50% 50%;
-  background-size: contain;
+  background-size: 80%;
 }
 .con_box2_slide_img6 {
   width: 100%;
   margin-top: 20px;
   height: 186px;
   background: url(/m_con_box2_simg3.png) no-repeat 50% 50%;
-  background-size: contain;
+  background-size: 80%;
 }
 
 
@@ -416,6 +416,9 @@ h1 {
 
 #port_box ul .prt_box_title {
   opacity: 0;
+}
+#port_box ul .prt_box_title1 {
+  margin-left: -54px;
 }
 #port_box ul .prt_box_title3 {
   margin-left: -20px;
