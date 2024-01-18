@@ -5,11 +5,13 @@ app.set("views", "./views");
 app.set("view engine", "ejs")
 
 app.get('/', (req, res) => {
-  res.render("home/index_kor")
+  // res.render("home/index_kor")
+  res.render("home/construction")
 })
 
 app.get('/eng', (req, res) => {
-  res.render("home/index_eng")
+  // res.render("home/index_eng")
+  res.render("home/construction")
 })
 
 app.use(express.static('./css'))
